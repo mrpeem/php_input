@@ -8,4 +8,6 @@
   $sql = "INSERT INTO product (name, description, price) VALUES ('$name', '$description', '$price');";
   mysqli_query($conn, $sql);
 
-  echo '<script>alert("Welcome to Geeks for Geeks")</script>';
+  //echo '<script>alert("Welcome to Geeks for Geeks")</script>';
+  echo '<script type="text/javascript">alert("Stupid message");history.go(-1);</script>';
+
