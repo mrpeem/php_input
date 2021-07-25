@@ -8,6 +8,6 @@
   $sql = "INSERT INTO product (name, description, price) VALUES ('$name', '$description', '$price');";
   mysqli_query($conn, $sql);
 
-  header("Location: /index.php?submit=success");
+  // header("Location: /index.php?submit=success");
   echo '<script type="text/javascript">alert("Success");history.go(-1);</script>';
 
