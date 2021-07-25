@@ -5,7 +5,6 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script> 
 </head>
 <body>
-  <button id="testbtn">test btn </button>
   <form id="form" action="submit.inc.php" method="post">
     <div>
       <label for="name">Name</label>
@@ -21,8 +20,6 @@
     </div>
     <button type="submit" name="submit"> Submit </button>
   </form>
-
-  <p id="text"> test text </p>
 
   <script type="text/javascript" src="submit.js"></script>
 </body>
