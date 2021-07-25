@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <head>
-  <!-- jQuery library -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script> 
 </head>
 <body>
   <form id="form" action="submit.inc.php" method="post">
@@ -20,7 +17,5 @@
     </div>
     <button type="submit" name="submit"> Submit </button>
   </form>
-
-  <script type="text/javascript" src="submit.js"></script>
 </body>
 </html>
