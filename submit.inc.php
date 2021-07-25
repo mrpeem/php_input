@@ -11,6 +11,7 @@
   // header("Location: /index.php?input=success");
 
   echo '<script type="text/javascript">'; 
-  echo 'alert("test");';
+  
   echo 'window.location.href = "index.php";';
+  echo 'alert("test");';
   echo '</script>';
