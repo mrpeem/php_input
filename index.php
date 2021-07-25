@@ -23,6 +23,11 @@
       <input type="number" step="any" name="price" required>
     </div>
     <button id="submit" type="submit" name="submit""> Submit </button>
+    <script type="text/javascript">
+      $('#testbtn').click(() => {
+        alert("testing testing");
+      })
+    </script>
   </form>
 
   <p id="text"> test text </p>
