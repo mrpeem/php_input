@@ -22,11 +22,22 @@
       <label for="price">Price</label>
       <input type="number" step="any" name="price" required>
     </div>
-    <button id="submit" type="submit" name="submit""> Submit </button>
+    <button id="submit" type="submit" name="submit"> Submit </button>
     <script type="text/javascript">
       $('#testbtn').click(() => {
         alert("testing testing");
       })
+
+      $("#submit").click(() => {
+        alert('fuck');
+        let name = $('#name').val();
+        let description = $('#description').val();
+        let price = $('#price').val();
+        $.post('submit.inc.php', {name: name, description: description, price: price}, (data) => {
+          $('#text').text('good good');
+          $('#form')[0].reset();
+        })
+      });
     </script>
   </form>
 
