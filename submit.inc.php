@@ -10,5 +10,7 @@
 
   // header("Location: /index.php?input=success");
 
-  echo '<script type="text/javascript">history.go(-1);</script>';
-  echo '<script type="text/javascript">alert("after");</script>';
+  echo '<script type="text/javascript">'; 
+  echo 'alert("test");';
+  echo 'window.location.href = "index.php";';
+  echo '</script>';
