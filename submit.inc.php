@@ -9,6 +9,4 @@
   mysqli_query($conn, $sql);
 
   header("Location: /index?submit=success");
-  echo "<script type='text/javascript'>";
-  echo "alert('hi');";
-  echo "</script>";
+
