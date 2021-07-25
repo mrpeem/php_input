@@ -21,7 +21,7 @@
       <label for="price">Price</label>
       <input type="number" step="any" name="price" required>
     </div>
-    <button type="submit" name="submit" onclick="submit();"> Submit </button>
+    <button id="submit" type="submit" name="submit" onclick="submit();"> Submit </button>
   </form>
 
   <p id="text"> test text </p>

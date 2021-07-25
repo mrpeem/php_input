@@ -1,4 +1,5 @@
-function submit() {
+$("#submit").click(() => {
+  alert('fuck');
   let name = $('#name').val();
   let description = $('#description').val();
   let price = $('#price').val();
@@ -6,4 +7,4 @@ function submit() {
     $('#text').text('good good');
     $('#form')[0].reset();
   })
-}
+});
