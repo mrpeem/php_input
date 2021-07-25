@@ -12,6 +12,6 @@
 
   echo '<script type="text/javascript">'; 
   
-  echo 'window.location.href = "index.php";';
+  //echo 'window.location.href = "index.php";';
   echo 'alert("test");';
   echo '</script>';

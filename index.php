@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <head>
+  <!-- jQuery library -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script> 
+
+  <script type="text/javascript" src="submit.js"></script>
 </head>
 <body>
   $conn;
@@ -16,7 +21,7 @@
       <label for="price">Price</label>
       <input type="number" step="any" name="price" required>
     </div>
-    <button type="submit" name="submit"> Submit </button>
+    <button type="submit" name="submit" onclick="submit();"> Submit </button>
   </form>
 
   <p id="text"> test text </p>
