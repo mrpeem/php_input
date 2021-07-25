@@ -9,5 +9,5 @@
   mysqli_query($conn, $sql);
 
   //echo '<script>alert("Welcome to Geeks for Geeks")</script>';
-  echo '<script type="text/javascript">alert("Stupid message");history.go(-1);</script>';
+  echo '<script type="text/javascript">history.go(-1);alert("before");</script>';
 
