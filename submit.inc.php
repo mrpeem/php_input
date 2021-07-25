@@ -7,11 +7,3 @@
 
   $sql = "INSERT INTO product (name, description, price) VALUES ('$name', '$description', '$price');";
   mysqli_query($conn, $sql);
-
-  // header("Location: /index.php?input=success");
-
-  echo '<script type="text/javascript">'; 
-  
-  //echo 'window.location.href = "index.php";';
-  echo 'alert("test");';
-  echo '</script>';

@@ -3,8 +3,6 @@
   <!-- jQuery library -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script> 
-
-  <script type="text/javascript" src="submit.js"></script>
 </head>
 <body>
   <button id="testbtn"> test btn </button>
@@ -23,7 +21,7 @@
       <input type="number" step="any" name="price" required>
     </div>
     <button id="submit" type="submit" name="submit"> Submit </button>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       $('#testbtn').click(() => {
         alert("testing testing");
       })
@@ -38,9 +36,11 @@
           $('#form')[0].reset();
         })
       });
-    </script>
+    </script> -->
   </form>
 
   <p id="text"> test text </p>
+
+  <script type="text/javascript" src="submit.js"></script>
 </body>
 </html>
