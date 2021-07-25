@@ -8,7 +8,7 @@
 </head>
 <body>
   $conn;
-  <form action="submit.inc.php" method="post">
+  <form id="form" action="submit.inc.php" method="post">
     <div>
       <label for="name">Name</label>
       <input type="text" name="name" required>
