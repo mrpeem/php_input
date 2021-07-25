@@ -5,10 +5,21 @@
   $description = $_POST['description'];
   $price = $_POST['price'];
 
-  printf("Affected rows %d\n", mysqli_affected_rows($conn));
+  
+  $num = mysqli_affected_rows($conn);
+  echo "$num";
   $sql = "INSERT INTO product (name, description, price) VALUES ('$name', '$description', '$price');";
   mysqli_query($conn, $sql);
-  printf("Affected rows %d\n", mysqli_affected_rows($conn));
+  $num = mysqli_affected_rows($conn);
+  echo "$num";
+  if ($sql) {
+    echo "success";
+  }
+  else {
+    echo "error";
+  }
+  
+
 
 
   header("Location: /index.php?input=success");
