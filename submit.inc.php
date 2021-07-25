@@ -9,5 +9,5 @@
   mysqli_query($conn, $sql);
 
   // header("Location: /index.php?submit=success");
-  echo '<script type="text/javascript">alert("Success");history.go(-1);</script>';
+  echo '<script type="text/javascript">alert("Success");window.location.href="/index.php";</script>';
 
