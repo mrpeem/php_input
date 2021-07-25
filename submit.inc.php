@@ -10,8 +10,4 @@
 
   header("Location: /index.php?input=success");
 
-  echo "<script type='text/javascript'>
-  $(document).ready(function(){   
-     $('#text').text('new text');
-  });
-</script>";
+  echo '<script>alert("Welcome to Geeks for Geeks")</script>';
