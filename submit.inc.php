@@ -10,6 +10,13 @@
   echo "$num";
   $sql = "INSERT INTO product (name, description, price) VALUES ('$name', '$description', '$price');";
   mysqli_query($conn, $sql);
+  
+  
+
+
+
+  header("Location: /index.php?input=success");
+
   $num = mysqli_affected_rows($conn);
   echo "$num";
   if ($sql) {
@@ -18,8 +25,3 @@
   else {
     echo "error";
   }
-  
-
-
-
-  header("Location: /index.php?input=success");
