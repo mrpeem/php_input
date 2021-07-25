@@ -7,7 +7,8 @@
   <script type="text/javascript" src="submit.js"></script>
 </head>
 <body>
-  $conn;
+  <button id="testbtn"> test btn </button>
+
   <form id="form" action="submit.inc.php" method="post">
     <div>
       <label for="name">Name</label>
@@ -21,7 +22,7 @@
       <label for="price">Price</label>
       <input type="number" step="any" name="price" required>
     </div>
-    <button id="submit" type="submit" name="submit" onclick="submit();"> Submit </button>
+    <button id="submit" type="submit" name="submit""> Submit </button>
   </form>
 
   <p id="text"> test text </p>

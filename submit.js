@@ -1,3 +1,7 @@
+$('#testbtn').click(() => {
+  alert("testing testing");
+})
+
 $("#submit").click(() => {
   alert('fuck');
   let name = $('#name').val();
