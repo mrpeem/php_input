@@ -20,6 +20,12 @@
       <input type="number" step="any" name="price" required>
     </div>
     <button type="submit" name="submit"> Submit </button>
+    <script type="text/javascript">
+      $('#submit').click((e) => {
+        e.preventDefault();
+        return fase;
+      });
+    </script>
   </form>
 
   <p id="text"> test text </p>
