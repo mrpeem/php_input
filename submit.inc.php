@@ -8,6 +8,4 @@
   $sql = "INSERT INTO product (name, description, price) VALUES ('$name', '$description', '$price');";
   mysqli_query($conn, $sql);
 
-  header("Location: /index.php?input=success");
-
   echo '<script>alert("Welcome to Geeks for Geeks")</script>';
